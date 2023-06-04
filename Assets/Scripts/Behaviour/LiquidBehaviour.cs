@@ -4,11 +4,17 @@ using UnityEngine;
 
 public class LiquidBehaviour : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public Rigidbody2D rb;
+    Vector2 force;
+
+    public Vector2 minPower;
+    public Vector2 maxPower;
+    public Canvas canvas;
+    public GameObject particle;
+
     void Start()
     {
-        transform.SetParent(transform.root);
-        transform.SetAsLastSibling();
+        particle.transform.SetParent(canvas.transform);
     }
 
     // Update is called once per frame
