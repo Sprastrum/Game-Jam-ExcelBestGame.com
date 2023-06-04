@@ -16,7 +16,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Fluids
   - 
   - 
   - 
@@ -40,4 +40,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: New Layer 1
+    uniqueID: 1642726385
+    locked: 0
+  - name: New Layer 2
+    uniqueID: 310976455
+    locked: 0
+  - name: Fluids
+    uniqueID: 411955537
     locked: 0
