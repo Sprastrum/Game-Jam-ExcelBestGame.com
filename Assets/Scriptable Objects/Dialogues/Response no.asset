@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebca4125f7b8c3c4ba6b40127f78ddb7, type: 3}
   m_Name: Response no
   m_EditorClassIdentifier: 
+  name_field: 
   dialogue:
   - You Said no
   responses: []
+  IsPlayer: 1

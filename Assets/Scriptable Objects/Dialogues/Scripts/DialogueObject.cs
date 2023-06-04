@@ -8,6 +8,8 @@ public class DialogueObject : ScriptableObject
     [SerializeField] [TextArea(5, 15)] private string[] dialogue;
     [SerializeField] private Response[] responses;
 
+    public bool IsPlayer;
+
     public string[] Dialogue => dialogue;
 
     public string Name_Field => name_field;

@@ -48,7 +48,7 @@ public class ResponseManager : MonoBehaviour
             Destroy(button);
         }
         tempResponseButton.Clear();
-
+        
         dialogueUI.ShowDialogue(response.Dialogue_Object);
     }
 }

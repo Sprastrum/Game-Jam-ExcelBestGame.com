@@ -12,18 +12,23 @@ public class DialogueUI : MonoBehaviour
 
     private TypeWriterEffect typeWriterEffect;
     private ResponseManager response_manager;
+    private bool isplayer;
+
+    public bool IsOpen { get; private set; }
     // Start is called before the first frame update
     void Start()
     {
+        isplayer = false;
         typeWriterEffect = GetComponent<TypeWriterEffect>();
         response_manager = GetComponent<ResponseManager>();
 
-        CloseDialogueBox();
-        ShowDialogue(mainDialogueObj);
+        CloseDialogueBox(isplayer);
     }
     public void ShowDialogue(DialogueObject dialogueObject)
     {
-        OpenDialogueBox();
+        isplayer = dialogueObject.IsPlayer;
+        OpenDialogueBox(isplayer);
+        IsOpen = true;
         name_label.text = dialogueObject.Name_Field;
         StartCoroutine(StepThroughDialogue(dialogueObject));
     }
@@ -45,20 +50,40 @@ public class DialogueUI : MonoBehaviour
         }
         else
         {
-            CloseDialogueBox();
+            CloseDialogueBox(isplayer);
         }
         
 
     }
-    private void OpenDialogueBox()
+    private void OpenDialogueBox(bool IsPlayer)
     {
         Animator animator = dialogue_box.GetComponent<Animator>();
         animator.SetBool("IsOpen", true);
+        if (isplayer)
+        {
+            
+            animator.SetBool("IsPlayer", true);
+        }
+        else
+        {
+            animator.SetBool("IsPlayer", false);
+        }
+        
     }
-    private void CloseDialogueBox()
+    public void CloseDialogueBox(bool IsPlayer)
     {
         Animator animator = dialogue_box.GetComponent<Animator>();
         animator.SetBool("IsOpen", false);
         textLabel.text = string.Empty;
+        if (isplayer)
+        {
+
+            animator.SetBool("IsPlayer", true);
+        }
+        else
+        {
+            animator.SetBool("IsPlayer", false);
+        }
+        IsOpen = false;
     }
 }
