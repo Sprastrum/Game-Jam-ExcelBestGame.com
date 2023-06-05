@@ -7,14 +7,15 @@ public class DialogueUI : MonoBehaviour
 {
     [SerializeField] private TMP_Text name_label;
     [SerializeField] private TMP_Text textLabel;
-    [SerializeField] private DialogueObject mainDialogueObj;
     [SerializeField] private GameObject dialogue_box;
 
     private TypeWriterEffect typeWriterEffect;
     private ResponseManager response_manager;
     private bool isplayer;
 
+
     public bool IsOpen { get; private set; }
+    public bool Updated { get; set; }
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +32,11 @@ public class DialogueUI : MonoBehaviour
         IsOpen = true;
         name_label.text = dialogueObject.Name_Field;
         StartCoroutine(StepThroughDialogue(dialogueObject));
+    }
+
+    public void AddResponseEvents(ResponseEvent[] responseEvents)
+    {
+        response_manager.AddResponseEvents(responseEvents);
     }
     private IEnumerator StepThroughDialogue(DialogueObject dialogueObject)
     {
@@ -59,7 +65,7 @@ public class DialogueUI : MonoBehaviour
     {
         Animator animator = dialogue_box.GetComponent<Animator>();
         animator.SetBool("IsOpen", true);
-        if (isplayer)
+        if (IsPlayer)
         {
             
             animator.SetBool("IsPlayer", true);
@@ -84,6 +90,7 @@ public class DialogueUI : MonoBehaviour
         {
             animator.SetBool("IsPlayer", false);
         }
+
         IsOpen = false;
     }
 }

@@ -14,7 +14,7 @@ public class Char_manager : MonoBehaviour
         foreach (DialogueObject dialogue in character_dialogue)
         {
             character_queue.Enqueue(dialogue);
-            Debug.Log("Add conversation with: " + dialogue.name);
+            
         }
     }
 
@@ -25,5 +25,6 @@ public class Char_manager : MonoBehaviour
         character.GetComponent<DialogueActivator>().setDialogue(character_queue.Dequeue());
         animator = character.GetComponent<Animator>();
         animator.SetBool("Enters",true);
+        Destroy(gameObject);
     }
 }

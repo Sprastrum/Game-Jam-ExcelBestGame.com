@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ebca4125f7b8c3c4ba6b40127f78ddb7, type: 3}
-  m_Name: Response no
+  m_Name: No
   m_EditorClassIdentifier: 
-  name_field: 
+  name_field: You
   dialogue:
-  - You Said no
+  - You said no
   responses: []
   IsPlayer: 1
