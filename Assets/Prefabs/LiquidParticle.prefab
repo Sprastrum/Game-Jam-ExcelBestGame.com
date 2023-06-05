@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5337201095507004941}
   m_Layer: 5
   m_Name: LiquidParticle
-  m_TagString: Untagged
+  m_TagString: Fluid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38,7 +38,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -128.30289, y: 9.957672}
+  m_AnchoredPosition: {x: -148.4477, y: 42.308517}
   m_SizeDelta: {x: 0.2, y: 0.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!70 &98048823904349177
@@ -54,8 +54,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.00018533478, y: -0.0005975545}
-  m_Size: {x: 0.13162863, y: 0.1314637}
+  m_Offset: {x: -0.0015303198, y: -0.0005975544}
+  m_Size: {x: 0.14506547, y: 0.13146426}
   m_Direction: 1
 --- !u!50 &6671170424000895632
 Rigidbody2D:
@@ -106,7 +106,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -133,3 +133,4 @@ MonoBehaviour:
   maxPower: {x: 0, y: 0}
   canvas: {fileID: 6448914988305095436, guid: 785f0fdfa4e33834bb2a2b8e4920e448, type: 3}
   particle: {fileID: 6671170424000895639}
+  alcohol: 

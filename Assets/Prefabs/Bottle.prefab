@@ -129,10 +129,13 @@ MonoBehaviour:
   fluid: {fileID: 6671170424000895639, guid: b57d53db06399074a9fa3d01aa504426, type: 3}
   fluidSpeed: 5
   timeToFluid: 5
+  rotationGrades: 300
   nozzleBottle: {fileID: 5404996650377106858}
   canvas: {fileID: 0}
+  alcohol: 
   minPower: {x: -2, y: -2}
   maxPower: {x: 2, y: 2}
+  canvasPosition: {x: 0, y: 0}
   parentAfterDrag: {fileID: 0}
 --- !u!50 &6586818373637999876
 Rigidbody2D:

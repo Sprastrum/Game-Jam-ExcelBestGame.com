@@ -10,8 +10,10 @@ public class BottleBehaviour : MonoBehaviour, IDragHandler, IBeginDragHandler, I
     public GameObject fluid;
     public float fluidSpeed;
     public float timeToFluid;
+    public float rotationGrades;
     public GameObject nozzleBottle;
     public Canvas canvas;
+    public string alcohol;
 
     public Vector2 minPower;
     public Vector2 maxPower;
@@ -20,6 +22,7 @@ public class BottleBehaviour : MonoBehaviour, IDragHandler, IBeginDragHandler, I
     Vector2 force;
     Vector3 startPoint;
     bool isDrag;
+    bool thereIsGravity = false;
     RectTransform canvasRectTransform;
 
     [HideInInspector] public Transform parentAfterDrag;
@@ -32,16 +35,33 @@ public class BottleBehaviour : MonoBehaviour, IDragHandler, IBeginDragHandler, I
 
     private void Update()
     {
-        BottleController();
+        if (isDrag)
+        {
+            BottleController();
+            BottleRotate();
+        }
     }
 
     private void BottleController()
     {
-        if (Input.GetKeyDown(KeyCode.W) && isDrag)
+        if (Input.GetKeyDown(KeyCode.W) || Input.GetKey(KeyCode.W) && isDrag)
         {
             RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRectTransform, nozzleBottle.transform.position, null, out canvasPosition);
-            Instantiate(fluid, canvas.transform);
+            GameObject liquidAlcohol = Instantiate(fluid, canvas.transform);
+            liquidAlcohol.name = alcohol;
             fluid.GetComponent<RectTransform>().anchoredPosition = canvasPosition;
+        }
+    }
+
+    private void BottleRotate()
+    {
+        if(Input.GetKeyDown(KeyCode.Q) || Input.GetKey(KeyCode.Q) && isDrag)
+        {
+            transform.Rotate(Vector3.forward * rotationGrades * Time.deltaTime);
+        }
+        if(Input.GetKeyDown(KeyCode.E) || Input.GetKey(KeyCode.E) && isDrag)
+        {
+            transform.Rotate(-Vector3.forward * rotationGrades * Time.deltaTime);
         }
     }
 
@@ -53,12 +73,12 @@ public class BottleBehaviour : MonoBehaviour, IDragHandler, IBeginDragHandler, I
             rb.Sleep();
         }
 
+        startPoint = transform.position;
+
         transform.SetParent(transform.root);
         transform.SetAsLastSibling();
         image.raycastTarget = false;
         isDrag = true;
-
-        startPoint = new Vector3(transform.position.x, transform.position.y, transform.position.z);
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -71,7 +91,15 @@ public class BottleBehaviour : MonoBehaviour, IDragHandler, IBeginDragHandler, I
         image.raycastTarget = true;
         isDrag = false;
 
-        force = new Vector2(Mathf.Clamp(transform.position.x - startPoint.x, minPower.x, maxPower.x), Mathf.Clamp(transform.position.y - startPoint.y, minPower.y, maxPower.y));
-        rb.AddForce(force * power, ForceMode2D.Impulse);
+        if(!thereIsGravity)
+        {
+            force = new Vector2(Mathf.Clamp(transform.position.x - startPoint.x, minPower.x, maxPower.x), Mathf.Clamp(transform.position.y - startPoint.y, minPower.y, maxPower.y));
+            rb.AddForce(force * power, ForceMode2D.Impulse);
+        }
+    }
+
+    private void StartPointUpdate()
+    {
+        startPoint = transform.position;
     }
 }
