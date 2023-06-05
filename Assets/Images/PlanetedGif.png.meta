@@ -1,0 +1,2763 @@
+fileFormatVersion: 2
+guid: f445f6aecdfb0a245843f2ed7cc1c168
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 35
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlanetedGif_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11730
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73dfe364af6dd443a46ca4bb7137bda
+      internalID: 1035952695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_1
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 11730
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71dfe11f44cbfd647a5026a19c5b1cf9
+      internalID: 1219945725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_2
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 11730
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52d56ec82a921242b5a3f7796777bbe
+      internalID: 1798398121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_3
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 11730
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083e797483a95284dbcbbbf60f1f3d32
+      internalID: 1894414033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_4
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 11730
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893abbea518eed940b014d26a85486d0
+      internalID: 2117074351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11220
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc42d4d9da1e1f4fb876c009b18e207
+      internalID: -1335619909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_6
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 11220
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99c8fbf8b018dd4badd62a3be73f033
+      internalID: 679548603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_7
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 11220
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f229924fdfa404c893779337baa4c3
+      internalID: 368602015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_8
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 11220
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e61d22d6e1c3f448d537b3b2214446
+      internalID: 1922967160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_9
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 11220
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b827666e4781184f9c9e66dcee3654d
+      internalID: -888621343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10710
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8001d7380f4331d4e90de6f494dca920
+      internalID: 506399911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_11
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 10710
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cade9b8c261ef3143b3968ba5067c1b1
+      internalID: -77492492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_12
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 10710
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93350be98b356b4d876f559a34ef3e4
+      internalID: -1334045555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_13
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 10710
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abcc9d06678ff26479348377bbc9d828
+      internalID: 1140964732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_14
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 10710
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d02ac627b7ba954e9a9ef02c434a06f
+      internalID: 337841845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10200
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c39e5e664a943c46a16236611f11862
+      internalID: -198807292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_16
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 10200
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296028fd8c015e94b9e76d34ab4d648e
+      internalID: 1455410711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_17
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 10200
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd50f96c1e28a040821416ac489626d
+      internalID: 1011048463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_18
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 10200
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1507e47d880be44ad98344d36418bb
+      internalID: -709698963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_19
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 10200
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3774aaa0780210a48874ee77995c7421
+      internalID: -513309535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9690
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbbf07542d62914fbcb3d83c41b3cd5
+      internalID: 1747104336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_21
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 9690
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412888d1aa765194eab05583ef03bc32
+      internalID: -1159068954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_22
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 9690
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e39fc37dbfca8b4eacc64ed303d0690
+      internalID: 1637173042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_23
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 9690
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3842d3909e4983c49b222d93463513b0
+      internalID: 292089447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_24
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 9690
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9746141b88e23349a12026f4ce2a7a1
+      internalID: 815184579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9180
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692281ef87552dd4ab01a6538bd505c1
+      internalID: -149270596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_26
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 9180
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cc9f40deb029e4eb6f8f0186a3195a
+      internalID: -2080104794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_27
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 9180
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607abc4e67a1ef64b9337437e6dbb787
+      internalID: -246958199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_28
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 9180
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f249adfd604148544ae6331e4cc48c92
+      internalID: -2044808315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_29
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 9180
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1feb356d8d6bc45b1d45a642156af2
+      internalID: -1454792948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8670
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4b2457accbe934eb2058241e2e3340
+      internalID: 1912348448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_31
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 8670
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb00e7b2b1e5a8240b209b875a405625
+      internalID: 1759725565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_32
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 8670
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a4f32bb1513e84ba52ca7602294d58
+      internalID: 1467118188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_33
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 8670
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c7456eb2118584e9b5648fc53117bc
+      internalID: 943185644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_34
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 8670
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8b736ae77a2ba419a99353073aaf75
+      internalID: 1333862944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8160
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca59178a3d5bd7144977196215e7d82d
+      internalID: 1604678298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_36
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 8160
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69aff53fac3070443b9edc39db4b43d2
+      internalID: -284401226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_37
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 8160
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff01370b555bde4c9fc75b7bff6e3dc
+      internalID: 651382503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_38
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 8160
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878f85f1f0972de4aa15c9a488a1c5b8
+      internalID: -1668795899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_39
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 8160
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325c1c3564d39dc4399d341ab2981603
+      internalID: 1323157933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7650
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eba78a335d07ce4eade33fd8bba27a8
+      internalID: -1151673684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_41
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 7650
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc3c2e575c9ada4cbd5db04838bcc74
+      internalID: -1089805050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_42
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 7650
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c2ff45432bd2f41a9e3fadd105696a
+      internalID: -86403389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_43
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 7650
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c81e6e56c783fe4b816898b96ad3b83
+      internalID: 1328672325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_44
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 7650
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c49821b15245e4d825f892ec2b18b3
+      internalID: 1882127214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7140
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bde3fb2ca447d4fbb12e3aa2978822
+      internalID: -1112301816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_46
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 7140
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c427f459f1a5c9f45ad2e504f2456e29
+      internalID: 1861808885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_47
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 7140
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8e03079e7df1f4caba52563a70c712
+      internalID: -1603462997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_48
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 7140
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a356416dbd0967c488cd1b3248b3a767
+      internalID: 1201880701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_49
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 7140
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790991cf76d64c84b8304d09988b0073
+      internalID: -1002785438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6630
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a7e9b1d3dd9c542b90793b1184f136
+      internalID: -1705064269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_51
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 6630
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3d1fa9d42acdf41afbed69d941d7d3
+      internalID: -230890176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_52
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 6630
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6038bc9613e26e74886e9516247c9fd8
+      internalID: -96682499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_53
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 6630
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485ebb26171782d42a407f890741c4c4
+      internalID: 164425527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_54
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 6630
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc7e8e65cbcc5a4589ae342f307e784
+      internalID: 1016392920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6120
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3edeec3a0323a4d8b81c1acca55833
+      internalID: -534750585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_56
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 6120
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b11e552d88111b43b9e7a888739f8c3
+      internalID: -198429694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_57
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 6120
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0187b5e8eda0b7b449859d00bb3d5826
+      internalID: 477713409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_58
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 6120
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3386615652f275a47b4892aa4ad62fd8
+      internalID: 1249764925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_59
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 6120
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3b05f7b036dc440ac079929ecc90c5
+      internalID: -1081152102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5610
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed5babcdb923134c8e38de5a2312c68
+      internalID: -178027938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_61
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 5610
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea36f0533d7b324eac81fe36af0aaf7
+      internalID: -541974023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_62
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 5610
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccca4de5a26189148a6978e1b5e4dd71
+      internalID: 603347205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_63
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 5610
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1f35006143b6e429888669f1df05bf
+      internalID: -129037963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_64
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 5610
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53997020f635fce4bb01eade503f34dd
+      internalID: -1014292004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5100
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62383b3078a9ca3409e6ef653fc90ff2
+      internalID: -1754287374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_66
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 5100
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2038930e90d6b04380e75c70f357a8a
+      internalID: -961202721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_67
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 5100
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810fcecadb2eff74a8d493971fab7ffa
+      internalID: 50349118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_68
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 5100
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd187f514667aa43b58fc9a28e0d340
+      internalID: -1771809356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_69
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 5100
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2587060230cff54a822b2d66e1cf7b3
+      internalID: 1684036212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4590
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb3aafa78130c241bc77134d59fe7e6
+      internalID: -1475486229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_71
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 4590
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5aca452431e26a4cb9e708ef9ff26e2
+      internalID: -364495218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_72
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 4590
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bffd893656dbed49b130fae090cff2f
+      internalID: 607367681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_73
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 4590
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823760f481bcbd2499ad7f1757b11f4c
+      internalID: -430916032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_74
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 4590
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce5ac8e8e10f1542888e53667b1a802
+      internalID: 1681653385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4080
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aaf0823a590f064084311e931416c55
+      internalID: 328064429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_76
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 4080
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a935fc89bc81a3439ee58368b5cbafb
+      internalID: 2099196394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_77
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 4080
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb92450fbad526f48a46a4215d581486
+      internalID: -1170492456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_78
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 4080
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fb306cc86773c4e9214b039624c50e
+      internalID: 819080321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_79
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 4080
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06c42d5a6364aa418a743eb5489c46f
+      internalID: -486732693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3570
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f59f2272415062459b4824e9c1a1a62
+      internalID: -1091209326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_81
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 3570
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343a9ca40d948124dbd816d3fc28875c
+      internalID: -1253870415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_82
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 3570
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96bf005c05f5e24d931d2ce47eb52c5
+      internalID: -963489747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_83
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 3570
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a206ec694c889ab44b1c72480fd9cf9a
+      internalID: -1112072798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_84
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 3570
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0302233d7774e48b92f3f2fe5a3bfe
+      internalID: -169462040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3060
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa3351cdede87145ac6f5fec41c732e
+      internalID: -2035229304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_86
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 3060
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b870c5b53306f47b4c3d505b5670a1
+      internalID: -1811525551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_87
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 3060
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ac8866f9a0f4d4bbcda5c14494ef03
+      internalID: 504951618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_88
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 3060
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0dab24db2ad7b42b419dbe5d6b657b
+      internalID: 1674848124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_89
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 3060
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab6befb546da0b4d9c43d0d0cacaeef
+      internalID: -1804727890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2550
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64342fdc424c6a45b0c9931423b1b07
+      internalID: 1378929902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_91
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 2550
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f0af561abb7964f8ec9659e880b3bc
+      internalID: -1449254163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_92
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 2550
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecfe6afd4f06569428685d239a86f4e1
+      internalID: -2015547759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_93
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 2550
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0664fb094b328442b03e22ffe509b59
+      internalID: -1958645307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_94
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 2550
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd63093dee985e047a39b44b34641942
+      internalID: -1121153894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2040
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20c0056438012d42a8a9ffbae8af951
+      internalID: 1680014950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_96
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 2040
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177ff4b98b859f24ea409e780d8f1205
+      internalID: -987515277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_97
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 2040
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3dd3a07c4574f4b8b04962c86e774a
+      internalID: -1511328311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_98
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 2040
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd692934ba5f9445ae639cfd7957eed
+      internalID: -834491422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_99
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 2040
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bd8b2bd360ed348bec60d057007986
+      internalID: 629341477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1530
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211a7cd3a14e5c2479e4c262bb1bb413
+      internalID: 1162565952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_101
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1530
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb044ae04ce7b1e4dbcfda78c572e3c4
+      internalID: 1833677190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_102
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1530
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9177ae477b6a14299aa8356c9ba3f3
+      internalID: 1723485937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_103
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1530
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4109ec930489da14c875f7c9f43b54f6
+      internalID: -868584233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_104
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 1530
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1172342c8f6ca3b43b82531ac9a2e876
+      internalID: -1413304394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1020
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf86da145213274f9f5c2043631df98
+      internalID: -435529344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_106
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1020
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8d3a17717d71b42b8d08025b2f482b
+      internalID: 1648407866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_107
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1020
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b80c6510f451414c9060687ae391886
+      internalID: 500551688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_108
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1020
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c978f412156b7a54b9cbfc3e3a025af7
+      internalID: 60201017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_109
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 1020
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d127034c01040a4c89f6dda0b00d224
+      internalID: 1548302456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 510
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8aa5cf43e11fe945ba5caa2a323b8bb
+      internalID: -1081653950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_111
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 510
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3764de25bf569b4b8faa2f4dd953f21
+      internalID: -615280499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_112
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 510
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725c0b7ad48e5984e8d3bddd5f7641cc
+      internalID: -9803643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_113
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 510
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dae9f73c9eb6604398be8fef5d17de6
+      internalID: 1237831021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_114
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 510
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfca7bc0839f3a48887f24cf92ab133
+      internalID: -559742420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfee92994ada84d4985f265558888d6a
+      internalID: 602399323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_116
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9709d936c4961a14e99ece4f94284442
+      internalID: -1764442490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_117
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 0
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5b8811db6e5f248b5066d932ec8e34
+      internalID: 1202259233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_118
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 0
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f731ede473d2a347ae16c1672844611
+      internalID: 1868723911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetedGif_119
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 0
+        width: 510
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efca9743b3b370b419b8794a92a41a71
+      internalID: 1791476513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PlanetedGif_0: 1035952695
+      PlanetedGif_1: 1219945725
+      PlanetedGif_10: 506399911
+      PlanetedGif_100: 1162565952
+      PlanetedGif_101: 1833677190
+      PlanetedGif_102: 1723485937
+      PlanetedGif_103: -868584233
+      PlanetedGif_104: -1413304394
+      PlanetedGif_105: -435529344
+      PlanetedGif_106: 1648407866
+      PlanetedGif_107: 500551688
+      PlanetedGif_108: 60201017
+      PlanetedGif_109: 1548302456
+      PlanetedGif_11: -77492492
+      PlanetedGif_110: -1081653950
+      PlanetedGif_111: -615280499
+      PlanetedGif_112: -9803643
+      PlanetedGif_113: 1237831021
+      PlanetedGif_114: -559742420
+      PlanetedGif_115: 602399323
+      PlanetedGif_116: -1764442490
+      PlanetedGif_117: 1202259233
+      PlanetedGif_118: 1868723911
+      PlanetedGif_119: 1791476513
+      PlanetedGif_12: -1334045555
+      PlanetedGif_13: 1140964732
+      PlanetedGif_14: 337841845
+      PlanetedGif_15: -198807292
+      PlanetedGif_16: 1455410711
+      PlanetedGif_17: 1011048463
+      PlanetedGif_18: -709698963
+      PlanetedGif_19: -513309535
+      PlanetedGif_2: 1798398121
+      PlanetedGif_20: 1747104336
+      PlanetedGif_21: -1159068954
+      PlanetedGif_22: 1637173042
+      PlanetedGif_23: 292089447
+      PlanetedGif_24: 815184579
+      PlanetedGif_25: -149270596
+      PlanetedGif_26: -2080104794
+      PlanetedGif_27: -246958199
+      PlanetedGif_28: -2044808315
+      PlanetedGif_29: -1454792948
+      PlanetedGif_3: 1894414033
+      PlanetedGif_30: 1912348448
+      PlanetedGif_31: 1759725565
+      PlanetedGif_32: 1467118188
+      PlanetedGif_33: 943185644
+      PlanetedGif_34: 1333862944
+      PlanetedGif_35: 1604678298
+      PlanetedGif_36: -284401226
+      PlanetedGif_37: 651382503
+      PlanetedGif_38: -1668795899
+      PlanetedGif_39: 1323157933
+      PlanetedGif_4: 2117074351
+      PlanetedGif_40: -1151673684
+      PlanetedGif_41: -1089805050
+      PlanetedGif_42: -86403389
+      PlanetedGif_43: 1328672325
+      PlanetedGif_44: 1882127214
+      PlanetedGif_45: -1112301816
+      PlanetedGif_46: 1861808885
+      PlanetedGif_47: -1603462997
+      PlanetedGif_48: 1201880701
+      PlanetedGif_49: -1002785438
+      PlanetedGif_5: -1335619909
+      PlanetedGif_50: -1705064269
+      PlanetedGif_51: -230890176
+      PlanetedGif_52: -96682499
+      PlanetedGif_53: 164425527
+      PlanetedGif_54: 1016392920
+      PlanetedGif_55: -534750585
+      PlanetedGif_56: -198429694
+      PlanetedGif_57: 477713409
+      PlanetedGif_58: 1249764925
+      PlanetedGif_59: -1081152102
+      PlanetedGif_6: 679548603
+      PlanetedGif_60: -178027938
+      PlanetedGif_61: -541974023
+      PlanetedGif_62: 603347205
+      PlanetedGif_63: -129037963
+      PlanetedGif_64: -1014292004
+      PlanetedGif_65: -1754287374
+      PlanetedGif_66: -961202721
+      PlanetedGif_67: 50349118
+      PlanetedGif_68: -1771809356
+      PlanetedGif_69: 1684036212
+      PlanetedGif_7: 368602015
+      PlanetedGif_70: -1475486229
+      PlanetedGif_71: -364495218
+      PlanetedGif_72: 607367681
+      PlanetedGif_73: -430916032
+      PlanetedGif_74: 1681653385
+      PlanetedGif_75: 328064429
+      PlanetedGif_76: 2099196394
+      PlanetedGif_77: -1170492456
+      PlanetedGif_78: 819080321
+      PlanetedGif_79: -486732693
+      PlanetedGif_8: 1922967160
+      PlanetedGif_80: -1091209326
+      PlanetedGif_81: -1253870415
+      PlanetedGif_82: -963489747
+      PlanetedGif_83: -1112072798
+      PlanetedGif_84: -169462040
+      PlanetedGif_85: -2035229304
+      PlanetedGif_86: -1811525551
+      PlanetedGif_87: 504951618
+      PlanetedGif_88: 1674848124
+      PlanetedGif_89: -1804727890
+      PlanetedGif_9: -888621343
+      PlanetedGif_90: 1378929902
+      PlanetedGif_91: -1449254163
+      PlanetedGif_92: -2015547759
+      PlanetedGif_93: -1958645307
+      PlanetedGif_94: -1121153894
+      PlanetedGif_95: 1680014950
+      PlanetedGif_96: -987515277
+      PlanetedGif_97: -1511328311
+      PlanetedGif_98: -834491422
+      PlanetedGif_99: 629341477
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
