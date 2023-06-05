@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ecfeb70c8eec2704095d0e6702e75b63
+guid: cea9e68dcf4791042817bd552e3414e9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 800, y: 160, z: 780, w: 790}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: StartButton_0
+      name: Mostrador_0
       rect:
         serializedVersion: 2
-        x: 760
-        y: 184
-        width: 380
-        height: 64
+        x: 0
+        y: 0
+        width: 1920
+        height: 312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a12a908e724a0a4583f5b49a6d80d1f
-      internalID: 304123221
+      spriteID: 52056bc9bfeae9b46bceecfc7b8d51bb
+      internalID: 1026999459
       vertices: []
       indices: 
       edges: []
@@ -129,14 +129,14 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      StartButton_0: 304123221
+      Mostrador_0: 1026999459
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

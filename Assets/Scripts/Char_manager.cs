@@ -5,6 +5,7 @@ using UnityEngine;
 public class Char_manager : MonoBehaviour
 {
     [SerializeField] List<DialogueObject> character_dialogue;
+    [SerializeField] GameObject gameCharacter;
     private Queue<DialogueObject> character_queue;
     // Start is called before the first frame update
     private void Start()
@@ -16,6 +17,7 @@ public class Char_manager : MonoBehaviour
             character_queue.Enqueue(dialogue);
             
         }
+        Load_Char(gameCharacter);
     }
 
     public void Load_Char(GameObject character)

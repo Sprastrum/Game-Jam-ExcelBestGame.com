@@ -5,8 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class SwapScreen : MonoBehaviour
 {
-    public void StartMenu()
+    [SerializeField] string SceneToChoose;
+    private void OnMouseDown()
     {
-        SceneManager.LoadScene("JoseWorkspace");
+        SceneManager.LoadScene(SceneToChoose);
+    }
+
+    public void ChooseScene(string chooseScene)
+    {
+        SceneManager.LoadScene(SceneToChoose);
     }
 }

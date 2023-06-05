@@ -16,5 +16,9 @@ MonoBehaviour:
   dialogue:
   - Well?
   - Got my drink yet?
-  responses: []
+  responses:
+  - response_text: In a minute
+    dialogue_object: {fileID: 11400000, guid: 4bfc0d75dcaae8347bc25c91325d29f7, type: 2}
+  - response_text: Never
+    dialogue_object: {fileID: 11400000, guid: 4e4b31c28b8d4f94cb7bb72526ea64e9, type: 2}
   IsPlayer: 0
